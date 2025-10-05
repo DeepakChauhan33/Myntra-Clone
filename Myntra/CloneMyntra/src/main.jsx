@@ -9,9 +9,9 @@ import Home from './Routes/Home.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    elelment: <App />,
-    Children: [
-      { path: "/", elelment: <Home/>},
+    element: <App />,
+    children: [
+      { path: "/", element: <Home/>},
       {path: "/bag", element : <Bag/>}
     ]
   }
